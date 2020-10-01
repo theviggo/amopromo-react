@@ -76,7 +76,7 @@ function Home() {
                 <p>Menor distância: {lowest_iata}</p>
               </TextBox>
             )
-          }): (<p>"Não há dados</p>)}
+          }): (<p>Não há dados</p>)}
         </Grid>
       </div>
     </Container>
