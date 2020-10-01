@@ -51,12 +51,12 @@ function Home() {
               <p>Modelo da Aeronave: {aircraft_manufacturer} {aircraft_model}</p>
             </TextBox>
           )
-        }): (<p>"Não há dados</p>)}
+        }): (<p>Não há dados</p>)}
       </Grid>
 
       <Section>
         <h2>Estado com o maior número de aeroportos:</h2>
-        <h4>{ airportCity ? `${airportCity[0].city} com ${airportCity[0].count} aeroportos` : "Não há dados no banco de dados"}</h4>
+        <h4>{ airportCity && airportCity.length > 0 ? `${airportCity[0].city} com ${airportCity[0].count} aeroportos` : "Não há dados no banco de dados"}</h4>
       </Section>
 
       <div>
