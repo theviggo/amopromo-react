@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   h1 {
-    margin: 1em;
+    margin: 1em 0;
   }
 
   h2 {
@@ -41,8 +41,13 @@ export const Button = styled.button`
   color: #000;
   border: 0;
   padding: 12px 20px;
+  margin: 1em 1em 1em 0;
   font-weight: bold;
   text-transform: uppercase;
   transition: all 0.2s;
   align-self: end;
+`
+
+export const Loading = styled.h1`
+  font-size: 42px;
 `
